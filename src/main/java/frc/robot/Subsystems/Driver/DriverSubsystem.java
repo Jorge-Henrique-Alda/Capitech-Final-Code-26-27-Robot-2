@@ -12,7 +12,6 @@ import com.revrobotics.spark.config.SparkMaxConfig; // Importação para criar e
 import com.revrobotics.spark.config.SparkBaseConfig.IdleMode;  // Importação para definir o modo de parada do motor (Brake ou Coast)
 import com.studica.frc.AHRS;
 
-
 public class DriverSubsystem extends SubsystemBase {
     public final SparkMax RightLeader01Max = new SparkMax(1, MotorType.kBrushed);
     public final SparkMax RightFollower02Max = new SparkMax(2, MotorType.kBrushed);
